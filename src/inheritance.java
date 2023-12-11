@@ -14,6 +14,7 @@ class inheritance {
     public static void main (String [] args) {
         child c1 = new child();
         c1.display();
+        System.out.println();
         c1.show();
     }
 }
