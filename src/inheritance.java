@@ -14,7 +14,7 @@ class inheritance {
     public static void main (String [] args) {
         child c1 = new child();
         c1.display();
-        System.out.println("Line gap");
+        System.out.println("Line gap in this msg");
         c1.show();
     }
 }
