@@ -10,11 +10,22 @@ class child extends parent {
     }
 }
 
+class child1 extends child {
+    void display1() {
+        System.out.println("child class 1");
+    }
+}
+
+
 class inheritance {
     public static void main (String [] args) {
-        child c1 = new child();
+        child1 c1 = new child1();
         c1.display();
-        System.out.println("Line gap in this msg");
+        System.out.println();
+        //c1.display1();
+        System.out.println();
         c1.show();
+        System.out.println();
+        c1.display1();
     }
 }
