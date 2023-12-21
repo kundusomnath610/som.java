@@ -4,19 +4,19 @@ class A {
     }
 }
 
-class B extends A {
+class som extends A {
     void printB() {
-        System.out.println("print B Method");
+        System.out.println("print som Method");
     }
 }
 
-class C extends B {
+class kundu extends som {
     void printC(){
-        System.out.println("Print C Method");
+        System.out.println("Print kundu Method");
     }
 }
 
-class D extends C {
+class D extends kundu {
     void printD() {
         System.out.println("print D Method");
     }
@@ -26,8 +26,8 @@ class D extends C {
 public class hireInheri {
     public static void main(String[] args) {
         
-       B obj = new B();
-       C objc = new C();
+       som obj = new som();
+       kundu objc = new kundu();
        
         
       obj.print();
